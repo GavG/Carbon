@@ -1,5 +1,5 @@
 {
-    "name": "gavg/nesbot/carbon",
+    "name": "gavg/carbon",
     "type": "library",
     "description": "A simple API extension for DateTime.",
     "keywords": [
@@ -49,5 +49,8 @@
         "phpunit": "phpunit --verbose --coverage-clover=coverage.xml",
         "phpcs": "php-cs-fixer fix -v --diff --dry-run",
         "phpstan": "phpstan analyse --configuration phpstan.neon --level 3 src tests"
+    },
+    "replace": {
+        "nesbot/carbon": "1.29.2"
     }
 }
