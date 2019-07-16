@@ -1,5 +1,5 @@
 {
-    "name": "nesbot/carbon",
+    "name": "gavg/carbon",
     "type": "library",
     "description": "A simple API extension for DateTime.",
     "keywords": [
@@ -24,7 +24,7 @@
     "require": {
         "php": ">=5.3.9",
         "kylekatarnls/update-helper": "^1.1",
-        "symfony/translation": "~2.6 || ~3.0 || ~4.0"
+        "symfony/translation": "~2.7 || ~3.0 || ~4.0"
     },
     "require-dev": {
         "composer/composer": "^1.2",
@@ -66,5 +66,8 @@
                 "Carbon\\Laravel\\ServiceProvider"
             ]
         }
+    },
+    "replace": {
+        "nesbot\carbon":"1.39.0"
     }
 }
