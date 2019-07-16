@@ -51,6 +51,6 @@
         "phpstan": "phpstan analyse --configuration phpstan.neon --level 3 src tests"
     },
     "replace": {
-        "nesbot/carbon": "1.29.2"
+        "nesbot/carbon": "^1.29"
     }
 }
