@@ -68,6 +68,6 @@
         }
     },
     "replace": {
-        "nesbot\carbon":"1.39.0"
+        "nesbot/carbon":"1.39.0"
     }
 }
